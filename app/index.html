@@ -1,0 +1,76 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>calender</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.2/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+    <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="main-img">
+        <div class="col-sm-8 col-sm-push-2">
+            <header>
+                <h1 class="wow">קלנדר הריון</h1>
+                <h2 class="wow">כדי שלא תפספסי שום שלב חשוב</h2>
+            </header>
+        </div>
+        <div class="col-xs-8 col-xs-push-2 date-input">
+            <div class="col-xs-12">
+                <input id="datepicker" type="text" class="form-control input-lg wow slideInLeft" placeholder="תאריך ווסת אחרון" data-wow-duration="2s">
+                <a class="btn btn-success btn-lg wow slideInRight btn-cal" data-wow-duration="2s"><i class="fa fa-calendar"></i> צור לוח שנה</a>
+            </div>
+       </div>
+        <img id="bg" src="images/calender-bg2.png" class="img-responsive" alt="calender">
+        <div class="note one animated">
+            אולטרסאונד ראשון
+        </div>
+        <div class="note two animated">
+            שקיפות עורפית
+        </div>
+        <div class="note three animated">
+            יוגה לנשים הרות
+        </div>
+        <div class="note four animated">
+            קורס הכנה ללידה
+        </div>
+        <div class="note five animated">
+           בדיקת העמסת סוכר
+        </div>
+         <div class="note six animated">
+           סקירת מערכות מורחבת
+        </div>
+
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
