@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
     <!-- endbuild -->
 </head>
 <body>
@@ -32,17 +32,17 @@
     <div class="main-img">
         <div class="col-sm-8 col-sm-push-2">
             <header>
-                <h1 class="wow">קלנדר הריון</h1>
-                <h2 class="wow">כדי שלא תפספסי שום שלב חשוב</h2>
+                <h1 class="animated bounceIn">קלנדר הריון</h1>
+                <h2 class="animated fadeInRight">כדי שלא תפספסי שום שלב חשוב</h2>
             </header>
         </div>
         <div class="col-xs-8 col-xs-push-2 date-input">
             <div class="col-xs-12">
-                <input id="datepicker" type="text" class="form-control input-lg wow slideInLeft" placeholder="תאריך ווסת אחרון" data-wow-duration="2s">
-                <a class="btn btn-success btn-lg wow slideInRight btn-cal" data-wow-duration="2s"><i class="fa fa-calendar"></i> צור לוח שנה</a>
+                <input id="datepicker" type="text" class="form-control input-lg animated slideInLeft" placeholder="תאריך ווסת אחרון" >
+                <a class="btn btn-success btn-lg animated slideInRight btn-cal"><i class="fa fa-calendar"></i> צור לוח שנה</a>
             </div>
        </div>
-        <img id="bg" src="images/calender-bg2.png" class="img-responsive" alt="calender">
+        <img id="bg" src="images/calender-bg2.png" alt="calender">
         <div class="note one animated">
             אולטרסאונד ראשון
         </div>
@@ -66,7 +66,7 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/redmond/jquery-ui.min.css" />

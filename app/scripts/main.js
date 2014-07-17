@@ -29,20 +29,45 @@ $(function($) {
             'border-color': '#fff'
         })
     });
-
-
-
 });
 
 
 $('#bg').on('load', function() {
-    $('h1').addClass('flipInX').attr('data-wow-duration', '1.5s');
-    $('h2').addClass('pulse').attr('data-wow-duration', '1.5s');
 
     $('.one').addClass('bounceIn');
-    $('.two').addClass('bounceIn').css('-webkit-animation-delay', '2s');
-    $('.three').addClass('bounceIn').css('-webkit-animation-delay', '3s');
-    $('.four').addClass('bounceIn').css('-webkit-animation-delay', '4s');
-    $('.five').addClass('bounceIn').css('-webkit-animation-delay', '5s');
-    $('.six').addClass('bounceIn').css('-webkit-animation-delay', '6s');
+    $('.two').addClass('bounceIn').css({
+        '-webkit-animation-delay': '2s',
+        '-moz-animation-delay': '2s',
+        '-ms-animation-delay': '2s',
+        '-o-animation-delay': '2s',
+        'animation-delay': '2s'
+    });
+    $('.three').addClass('bounceIn').css({
+        '-webkit-animation-delay': '3s',
+        '-moz-animation-delay': '3s',
+        '-ms-animation-delay': '3s',
+        '-o-animation-delay': '3s',
+        'animation-delay': '3s'
+    });
+    $('.four').addClass('bounceIn').css({
+        '-webkit-animation-delay': '4s',
+        '-moz-animation-delay': '4s',
+        '-ms-animation-delay': '4s',
+        '-o-animation-delay': '4s',
+        'animation-delay': '4s'
+    });
+    $('.five').addClass('bounceIn').css({
+        '-webkit-animation-delay': '5s',
+        '-moz-animation-delay': '5s',
+        '-ms-animation-delay': '5s',
+        '-o-animation-delay': '5s',
+        'animation-delay': '5s'
+    });
+    $('.six').addClass('bounceIn').css({
+        '-webkit-animation-delay': '6s',
+        '-moz-animation-delay': '6s',
+        '-ms-animation-delay': '6s',
+        '-o-animation-delay': '6s',
+        'animation-delay': '6s'
+    });
 })
